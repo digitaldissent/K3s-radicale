@@ -1,4 +1,4 @@
-# Docker Radicale
+# Radicale for K3s [Broken-Do Not Use]
 
 This is a small docker image for [Radicale](https://github.com/Kozea/Radicale) and easy deployment. Bcrypt authentication inclusive.
 

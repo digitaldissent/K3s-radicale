@@ -2,10 +2,6 @@
 
 This is a small docker image for [Radicale](https://github.com/Kozea/Radicale) and easy deployment. Bcrypt authentication inclusive.
 
-![Docker Pulls](https://img.shields.io/docker/pulls/cupcakearmy/radicale?style=flat-square)
-![Docker Image Size (tag)](https://img.shields.io/docker/image-size/cupcakearmy/radicale/latest?style=flat-square)
-![Docker Image Version (tag latest semver)](https://img.shields.io/docker/v/cupcakearmy/radicale/latest?style=flat-square)
-
 ## Installation
 
 ```sh
@@ -30,14 +26,6 @@ services:
 ```
 
 The env file is not strictly required, but will generate a user with its bcrypt password if missing.
-
-## macOS Setup
-
-Without SSL/TLS the native client seems to have problems, once SSL is enabled it works like a charm.
-
-![macOS Setup](.github/macOS.png)
-
-The same setup works for Calendar and on iOS.
 
 ## Traefik
 
